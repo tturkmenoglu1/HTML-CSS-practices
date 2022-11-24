@@ -1,5 +1,63 @@
 body{
     background-image: url("../img/resim4.jpg");
+    background-position: center;
     background-size: cover;
+    background-size: 100%;
+    margin: 0;
+}
 
+h1{
+    text-align: center;
+    background-color: white;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.months {
+    background-color: rgb(255, 210, 142);
+    width: 25%;
+}
+
+.months h2{
+    text-align: center;
+    background-color: white;
+}
+
+.months ol{
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+
+.seasons {
+    background-color: rgb(255, 235, 204);
+    width: 25%;
+}
+
+.seasons h2{
+    text-align: center;
+    background-color: white;
+}
+
+.seasons ul{
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+
+.days {
+    background-color: rgb(121, 72, 39);
+    width: 25%;
+}
+
+.days h2{
+    text-align: center;
+    background-color: white;
+}
+
+.days ol{
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    
 }

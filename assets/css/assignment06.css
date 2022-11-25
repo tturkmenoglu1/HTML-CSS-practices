@@ -9,13 +9,23 @@ nav{
 
 }
 
+nav ul{
+    list-style-type:🎅;
+    /* 
+    css burdaki kodu sitede gostermedigi icin html tarafinda span ile yaptim
+     */
+}
+
+nav ul li{
+    display: inline;
+}
+
 
 nav a{
     background-color: var(--back-color);
     color: var(--color1);
     text-decoration: none;
     padding: 5px 10px;
-    margin-left: 20px;
-    list-style-type: 🎅;
+    margin-right: 20px;
 }
 

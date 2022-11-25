@@ -1,0 +1,21 @@
+:root{
+    --back-color: #FF0630;
+    --color1: #EAF6F6;
+}
+
+nav{
+    
+    text-align: center;
+
+}
+
+
+nav a{
+    background-color: var(--back-color);
+    color: var(--color1);
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: 20px;
+    list-style-type: 🎅;
+}
+

@@ -1,0 +1,42 @@
+.menubound{
+    
+    width: 15%;
+}
+
+.cbox{
+    display: none;
+}
+
+.menuicon{
+    cursor: pointer;
+}
+
+.bars:checked .menu{
+    background-color: red;
+}
+
+
+.menu{
+    padding: 0.7rem;
+    background-color: rgb(170, 170, 170);
+    margin: 0.5rem 0;
+}
+
+.menu li{
+    list-style-type: "::";
+    text-align: center;
+    padding: 0.5rem 0;
+    
+    
+}
+
+.menu a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    background-color: rgb(63, 63, 63);
+}
+

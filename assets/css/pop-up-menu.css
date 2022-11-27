@@ -1,42 +1,19 @@
-
-.bars{
-    display: none;
-}
-
-.menubars{
+/* .menubars{
     cursor: pointer;
 }
 
-
-.bars:checked .menu{
-    display: block;
-}
-
-.menubound{
-    width: 10rem;
-    
+.mbars{
+    display: none;
 }
 
 .menu{
     display: none;
-    padding: 0 0 0 0.5rem;
-    background-color: rgb(170, 170, 170);
-    margin: 0.5rem 0;
 }
 
-.menu li{
-    list-style-type: "::";
-    text-align: center;
-    padding: 0.5rem;
+.bars:checked .menu{
+    display: block;
 }
+ */
 
-.menu a{
-    font-size: 1rem;
-    text-decoration: none;
-    color: white;
-}
 
-.menu li:hover{
-    background-color: rgb(63, 63, 63);
-}
-
+ 

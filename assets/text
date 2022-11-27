@@ -1,0 +1,13 @@
+Table kullanarak yapılacaktır
+
+Thead, tbody ve tfoot yapısı kullanınız
+
+Fontawesome ikon kütüphanesi kullanınız
+
+tbody kısmındaki satır renkleri pseudo class ile yapılacaktır
+
+Buton simgeleri pseudo element ile yapılacaktır
+
+Butonlarda hover özelliği olacaktır.
+
+Tbody içindeki row larda hover özelliği olacaktır

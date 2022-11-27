@@ -1,5 +1,7 @@
 .table{
-    
+    font-family: 'Poppins', sans-serif;
+    width: 30%;
+    height: 10%;
 }
 
 .table .head{

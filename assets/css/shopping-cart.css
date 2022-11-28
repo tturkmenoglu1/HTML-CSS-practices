@@ -1,11 +1,11 @@
 
-div.buttons{
+/* div.buttons{
     padding: 0.5rem 0;
     
 
-}
+} */
 
-div .button1{
+.button1{
     background-color: rgb(255, 83, 83);
     padding: 0.7rem 0.3rem ;
     font-size: 1rem;
@@ -14,12 +14,13 @@ div .button1{
     margin-right: 0.5rem;
 }
 
-div .button2{
+.button2{
     background-color: rgb(255, 83, 83);
     padding: 0.7rem 0.3rem ;
     font-size: 1rem;
     color: white;
     border: none;
+    margin-left: auto;
 
 }
 
@@ -76,6 +77,11 @@ div .button2:hover{
 
 .table .body td:nth-child(4), .body td:nth-child(5){
     text-align: right;
+}
+
+.table .body tr:hover{
+    background-color: rgb(104, 104, 104) ;
+    color: white;
 }
 
 .table .foot{

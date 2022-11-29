@@ -1,9 +1,4 @@
 
-/* div.buttons{
-    padding: 0.5rem 0;
-    
-
-} */
 
 .button1{
     background-color: rgb(255, 83, 83);
@@ -24,12 +19,12 @@
 
 }
 
-div .button1:hover{
+.button1:hover{
     background-color: rgb(218, 49, 49);
     cursor: pointer;
 }
 
-div .button2:hover{
+.button2:hover{
     background-color: rgb(218, 49, 49);
     cursor: pointer;
 }

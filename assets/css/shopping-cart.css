@@ -7,6 +7,8 @@
     color: white;
     border: none;
     margin-right: 0.5rem;
+    position: relative;
+    left: 270px;
 }
 
 .button2{
@@ -15,13 +17,15 @@
     font-size: 1rem;
     color: white;
     border: none;
-    margin-left: auto;
+    position: relative;
+    left: 270px;
 
 }
 
 .button1:hover{
     background-color: rgb(218, 49, 49);
     cursor: pointer;
+
 }
 
 .button2:hover{

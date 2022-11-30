@@ -13,27 +13,94 @@ div.templet{
     font-family: 'Open Sans', sans-serif;
 }
 
-div.templet .signin{
+
+/* USER LOG IN PART */
+
+
+div.templet .log{
     background-color: white;
 
     text-align: center;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex: 4;
+
+    position: relative;
 }
+
+div.log .go-home{
+    position: absolute;
+    top: 1.8rem;
+    left: 1.6rem;
+}
+
+div.log .go-home a{
+    text-decoration: none;
+    font-size: 100%;
+}
+
+div.templet div.signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+div.log .enter {
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    bottom: 5rem;
+}
+
+
+/* DESIGN PART */
+
+
 
 div.templet .design{
     color: white;
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 6;
 
     background-image: url("../img/bg-login.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
-    justify-content: center;
-    align-items: center;
-
-    flex: 6;
+    position: relative;
 }
+
+div.templet .design h1{
+    margin: 0.5rem 1rem;
+    font-size: 3rem;
+    z-index: 1;
+}
+
+div.templet .design h3{
+    margin: 0.5rem 1rem;
+    z-index: 1;
+}
+
+.design::after{
+    content: "";
+    background-color: rgb(255, 51, 136);
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    opacity: 0.3;
+}
+
+
+
 

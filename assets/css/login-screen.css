@@ -45,10 +45,15 @@ div.log .go-home a{
 div.templet div.signin{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-
 }
 
+div.templet div.signin h2{
+    flex: 2;
+}
+
+div.templet div.signin form{
+    flex: 3;
+}
 
 
 

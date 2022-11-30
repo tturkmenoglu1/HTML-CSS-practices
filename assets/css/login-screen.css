@@ -23,18 +23,17 @@ div.templet .signin{
 
 div.templet .design{
     color: white;
+    display: flex;
+    flex-direction: column;
 
     background-image: url("../img/bg-login.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 
     flex: 6;
 }
 
-div.templet .design h1, h3{
-    
-    justify-content: center;
-    align-items: center;
-}

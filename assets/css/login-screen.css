@@ -1,5 +1,5 @@
 :root{
-    --color1 : rgb(87, 0, 99);
+    --color1 : rgb(68, 0, 99);
 }
 
 body{
@@ -48,7 +48,14 @@ div.log .go-home a{
 
 
 div.signin h2{
-    font-size: 2rem;
+    font-size: 1.9rem;
+    position: relative;
+    bottom: 4rem;
+}
+
+div.signin form input{
+    width: 300px; 
+    height: 25px;  
 }
 
 
@@ -69,7 +76,7 @@ div.log .enter button{
     font-weight: bold;
 
     position: relative;
-    top: 10rem;
+    top: 7rem;
     
 }
 

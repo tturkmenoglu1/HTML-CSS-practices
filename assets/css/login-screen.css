@@ -1,5 +1,5 @@
 :root{
-    --color1 : rgb(83, 0, 94);
+    --color1 : rgb(87, 0, 99);
 }
 
 body{
@@ -46,17 +46,9 @@ div.log .go-home a{
     font-size: 100%;
 }
 
-div.templet div.signin{
-    display: flex;
-    flex-direction: column;
-}
 
-div.templet div.signin h2{
-    flex: 2;
-}
-
-div.templet div.signin form{
-    flex: 3;
+div.signin h2{
+    font-size: 2rem;
 }
 
 
@@ -69,12 +61,15 @@ div.log .enter button{
     background-color: var(--color1);
     color: white;
 
-    padding: 0.5rem 5rem;
+    padding: 1rem 4rem;
     border-radius: 10px;
+    border: none;
 
     font-size: 15px;
     font-weight: bold;
 
+    position: relative;
+    top: 10rem;
     
 }
 

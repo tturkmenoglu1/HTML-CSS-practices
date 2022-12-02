@@ -1,4 +1,4 @@
-/* .menubars{
+.menubars{
     cursor: pointer;
 }
 
@@ -10,10 +10,10 @@
     display: none;
 }
 
-.bars:checked .menu{
+.cbox:checked .menu{
     display: block;
 }
- */
+
 
 
  

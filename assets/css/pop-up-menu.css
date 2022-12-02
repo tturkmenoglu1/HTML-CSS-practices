@@ -1,19 +1,10 @@
-.menubars{
-    cursor: pointer;
-}
-
-.mbars{
-    display: none;
-}
-
-.menu{
-    display: none;
-}
-
-.cbox:checked .menu{
+ul{
     display: block;
 }
 
+.cbox:checked + ul{
+    display: none;
+}
 
 
  

@@ -1,9 +1,28 @@
 ul{
-    display: block;
+    display: none;
+}
+
+/* .cbox{
+    display: none;
+} */
+
+.menubars{
+    cursor: pointer;
 }
 
 .cbox:checked + ul{
-    display: none;
+    display: block;
+}
+
+ul.menulist{
+    background-color: lightgray;
+    list-style-type: "::";
+    padding-left:0.8rem ;
+    width: 10%;
+}
+
+ul.menulist a{
+    text-decoration: none;
 }
 
 

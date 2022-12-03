@@ -2,9 +2,9 @@ ul{
     display: none;
 }
 
-/* .cbox{
+.cbox{
     display: none;
-} */
+}
 
 .menubars{
     cursor: pointer;
@@ -23,6 +23,22 @@ ul.menulist{
 
 ul.menulist a{
     text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+ul.menulist li{
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+ul.menulist li:hover{
+    background-color: rgb(88, 88, 88);
+    cursor: pointer;
 }
 
 

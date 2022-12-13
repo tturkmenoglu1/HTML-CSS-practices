@@ -15,9 +15,20 @@ div.templet{
     height: 100vh;
 
     font-family: 'Open Sans', sans-serif;
-
 }
 
+@media only screen and (max-width: 768px){
+    div.templet{
+        flex-direction: column;
+    }
+    div.templet .log{
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    .enter button{
+        font-size: 0.5rem;
+    }
+}
 
 /* USER LOG IN PART */
 
@@ -81,10 +92,19 @@ div.log .enter button{
     font-weight: bold;
 
     position: relative;
-    top: 6rem;
+    top: 0; /* 6rem */
     
     box-shadow: 0 4px 20px rgb(50, 0, 56);
 }
+
+/* @media only screen and (max-width: 768px){
+    .enter button{
+        top: 0;
+    }
+
+    BAKILMASI LAZIM
+} */
+
 
 div.log .enter button:hover{
     background-color: rgb(139, 10, 122);

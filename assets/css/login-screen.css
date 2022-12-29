@@ -77,9 +77,11 @@ div.signin form input{
 }
 
 
+/* 
 div.log .enter {
 }
-
+ */
+ 
 div.log .enter button{
     background-color: var(--color1);
     color: white;
